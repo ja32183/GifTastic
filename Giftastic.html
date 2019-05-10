@@ -2,30 +2,29 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <title>Giftastic</title>
-  <style type = "text/css">
-      button,
-    div,
-    form,
-    input {
-      margin: 10px;
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-<div class = "container">
-<h1>Giftastic</h1>
 
-<!-- Rendered Buttons will get Dumped Here  -->
-    <div id="buttons-view"></div>
+  <div id="band-buttons">
 
-    <form id="Band-form">
-      <label for="Band-input">Add a Band!</label>
-      <input type="text" id="band-input">
-      <br>
+  </div>
 
-      <!-- Button triggers new movie to be added -->
-      <input id="add-band" type="submit" value="Add a Band!">
-    </form>
+  <form id="band-form">
+    <label for="band-input">Add a band</label>
+    <input type="text" id="band-input"><br>
+    <input id="add-band" type="submit" value="Submit">
+  </form>
+
+  <div id="bands">
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="Giftastic.js"></script>
+  
+</body>
+</html>
